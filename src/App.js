@@ -7,7 +7,7 @@ import WatchListContextProvider from './context/WatchListContextProvider';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/stock-display-app'>
       <Routes>
         <Route path='/' element={
           <WatchListContextProvider>
